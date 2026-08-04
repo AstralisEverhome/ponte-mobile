@@ -1,0 +1,258 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#171a1f">
+<title>Ponte Mobile</title>
+<style>
+:root { color-scheme: dark; font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", sans-serif; background:#171a1f; color:#f4f4f2; }
+* { box-sizing: border-box; }
+body { margin:0; min-height:100vh; background:#171a1f; }
+main { width:min(100%, 430px); margin:0 auto; padding:18px 14px 28px; display:grid; gap:14px; }
+header { display:flex; justify-content:space-between; align-items:end; gap:12px; }
+h1 { margin:0; font-size:1.15rem; letter-spacing:0; }
+.time { color:#8d96a3; font-size:.72rem; text-align:right; }
+.grid { display:grid; grid-template-columns:1fr 1fr; gap:10px; }
+.card { border:1px solid #2c3036; border-radius:8px; background:#1d2025; padding:12px; }
+h2 { margin:0 0 10px; font-size:.78rem; color:#d8dadc; text-transform:uppercase; letter-spacing:.02em; }
+.row { display:flex; align-items:center; justify-content:space-between; gap:10px; padding:5px 0; border-top:1px solid #2c3036; }
+.row:first-of-type { border-top:0; }
+.label { color:#8d96a3; font-size:.78rem; }
+.units { color:#f4f4f2; font-size:.95rem; font-weight:650; text-align:right; }
+.empty { color:#68717d; font-size:.82rem; }
+.tasks { display:grid; gap:7px; }
+.task { padding:8px 0; border-top:1px solid #2c3036; color:#f4f4f2; font-size:.86rem; }
+.task:first-child { border-top:0; }
+.task.done { color:#777f8a; text-decoration:line-through; }
+.radar { display:grid; grid-template-columns:repeat(7, 1fr); gap:5px; }
+.day { min-height:70px; border:1px solid #2c3036; border-radius:8px; background:#20242a; padding:7px 4px; text-align:center; position:relative; color:inherit; }
+.day.today { border-color:#8fb7ff; }
+.day.off { border-color:#f59e0b; }
+.weekday { display:block; color:#d8dadc; font-size:.62rem; font-weight:700; }
+.date { display:block; margin-top:2px; font-size:.82rem; font-weight:700; }
+.counts { display:block; margin-top:5px; color:#8d96a3; font-size:.62rem; line-height:1.25; }
+.dot { position:absolute; bottom:5px; width:7px; height:7px; border-radius:999px; }
+.dot.linen { right:5px; background:#f472b6; }
+.dot.barbara { left:5px; background:#f4f4f2; }
+.dot.pool { left:50%; transform:translateX(-50%); background:#38bdf8; }
+.detail { margin-top:9px; border-top:1px solid #2c3036; padding-top:10px; color:#d8dadc; font-size:.84rem; }
+button { font:inherit; }
+.day { appearance:none; }
+.laundry-toggle { width:100%; min-height:34px; border:1px solid #30353c; border-radius:7px; background:#20242a; color:#f4f4f2; }
+.laundry-list { display:none; margin-top:10px; border-top:1px solid #2c3036; padding-top:8px; }
+.laundry-list.open { display:grid; gap:6px; }
+.total { display:flex; justify-content:space-between; gap:10px; color:#d8dadc; font-size:.84rem; }
+</style>
+</head>
+<body>
+<main id="app"></main>
+<script id="snapshot" type="application/json">{
+  "schemaVersion": 1,
+  "generatedAt": "2026-08-04T16:18:03.415637+02:00",
+  "today": "2026-08-04",
+  "tomorrow": "2026-08-05",
+  "todaySummary": {
+    "checkIns": [
+      "6",
+      "7A",
+      "11"
+    ],
+    "checkOuts": []
+  },
+  "tomorrowSummary": {
+    "checkIns": [
+      "8",
+      "Villa"
+    ],
+    "checkOuts": [
+      "7B"
+    ]
+  },
+  "prioritiesToday": [
+    {
+      "title": "Troca de lençóis — 10",
+      "done": true,
+      "cancelled": false
+    },
+    {
+      "title": "Check lav",
+      "done": true,
+      "cancelled": false
+    }
+  ],
+  "weekRadar": [
+    {
+      "weekday": "SEG",
+      "date": "2026-08-03",
+      "dateLabel": "03",
+      "checkIns": 2,
+      "checkOuts": 0,
+      "tasks": [
+        "App 5 = culla",
+        "Giulivo scarichi e depuratore",
+        "Pedido piscina"
+      ],
+      "hasLinenChange": false,
+      "hasBarbaraVisit": false,
+      "hasPoolVisit": false,
+      "isToday": false,
+      "isDayOff": false
+    },
+    {
+      "weekday": "TER",
+      "date": "2026-08-04",
+      "dateLabel": "04",
+      "checkIns": 3,
+      "checkOuts": 0,
+      "tasks": [
+        "Troca de lençóis — 10",
+        "Check lav"
+      ],
+      "hasLinenChange": true,
+      "hasBarbaraVisit": false,
+      "hasPoolVisit": false,
+      "isToday": true,
+      "isDayOff": false
+    },
+    {
+      "weekday": "QUA",
+      "date": "2026-08-05",
+      "dateLabel": "05",
+      "checkIns": 2,
+      "checkOuts": 1,
+      "tasks": [],
+      "hasLinenChange": false,
+      "hasBarbaraVisit": false,
+      "hasPoolVisit": false,
+      "isToday": false,
+      "isDayOff": false
+    },
+    {
+      "weekday": "QUI",
+      "date": "2026-08-06",
+      "dateLabel": "06",
+      "checkIns": 0,
+      "checkOuts": 0,
+      "tasks": [
+        "Check lav"
+      ],
+      "hasLinenChange": false,
+      "hasBarbaraVisit": false,
+      "hasPoolVisit": false,
+      "isToday": false,
+      "isDayOff": true
+    },
+    {
+      "weekday": "SEX",
+      "date": "2026-08-07",
+      "dateLabel": "07",
+      "checkIns": 4,
+      "checkOuts": 5,
+      "tasks": [
+        "B = 5, 9"
+      ],
+      "hasLinenChange": false,
+      "hasBarbaraVisit": true,
+      "hasPoolVisit": false,
+      "isToday": false,
+      "isDayOff": false
+    },
+    {
+      "weekday": "SÁB",
+      "date": "2026-08-08",
+      "dateLabel": "08",
+      "checkIns": 2,
+      "checkOuts": 1,
+      "tasks": [],
+      "hasLinenChange": false,
+      "hasBarbaraVisit": false,
+      "hasPoolVisit": false,
+      "isToday": false,
+      "isDayOff": false
+    },
+    {
+      "weekday": "DOM",
+      "date": "2026-08-09",
+      "dateLabel": "09",
+      "checkIns": 0,
+      "checkOuts": 1,
+      "tasks": [
+        "Troca de lençóis — 2",
+        "B = V"
+      ],
+      "hasLinenChange": true,
+      "hasBarbaraVisit": true,
+      "hasPoolVisit": false,
+      "isToday": false,
+      "isDayOff": false
+    }
+  ],
+  "laundry": {
+    "orderLabel": "Pedido de terça-feira",
+    "generatedAt": "2026-08-04T09:26:20.463892+02:00",
+    "periodStart": "2026-08-05",
+    "periodEnd": "2026-08-06",
+    "margin": 0.1,
+    "totals": [
+      {
+        "label": "Lençóis casal",
+        "total": 9
+      },
+      {
+        "label": "Lençóis solteiro",
+        "total": 14
+      },
+      {
+        "label": "Fronhas",
+        "total": 16
+      },
+      {
+        "label": "Toalhas banho",
+        "total": 16
+      },
+      {
+        "label": "Toalhas rosto",
+        "total": 16
+      },
+      {
+        "label": "Toalhas bidê",
+        "total": 16
+      },
+      {
+        "label": "Tapetes banheiro",
+        "total": 5
+      },
+      {
+        "label": "Toalhas mesa",
+        "total": 4
+      },
+      {
+        "label": "Panos de prato",
+        "total": 4
+      }
+    ]
+  }
+}</script>
+<script>
+const data = JSON.parse(document.getElementById('snapshot').textContent);
+const app = document.getElementById('app');
+const fmt = (v) => v ? v.slice(8,10)+'/'+v.slice(5,7) : '';
+const fmtDateTime = (v) => v ? new Date(v).toLocaleString('pt-BR', { day:'2-digit', month:'2-digit', hour:'2-digit', minute:'2-digit' }) : '';
+const list = (items) => items.length ? items.join(', ') : '<span class="empty">-</span>';
+let selected = data.weekRadar.find(d => d.isToday) || data.weekRadar[0];
+let laundryOpen = false;
+function dayCard(title, summary) {
+  return `<section class="card"><h2>${title}</h2><div class="row"><span class="label">Check-ins</span><span class="units">${list(summary.checkIns)}</span></div><div class="row"><span class="label">Check-outs</span><span class="units">${list(summary.checkOuts)}</span></div></section>`;
+}
+function render() {
+  app.innerHTML = `<header><div><h1>Ponte Mobile</h1><div class="empty">${fmt(data.today)}</div></div><div class="time">Atualizado<br>${fmtDateTime(data.generatedAt)}</div></header>
+  <div class="grid">${dayCard('Hoje', data.todaySummary)}${dayCard('Amanhã', data.tomorrowSummary)}</div>
+  <section class="card"><h2>Prioridades de hoje</h2><div class="tasks">${data.prioritiesToday.length ? data.prioritiesToday.map(t => `<div class="task ${t.done || t.cancelled ? 'done' : ''}">${t.title}</div>`).join('') : '<p class="empty">Nenhuma prioridade.</p>'}</div></section>
+  <section class="card"><h2>Radar da Semana</h2><div class="radar">${data.weekRadar.map(day => `<button class="day ${day.isToday?'today':''} ${day.isDayOff?'off':''}" onclick="selected=data.weekRadar.find(d=>d.date==='${day.date}');render()"><span class="weekday">${day.weekday}</span><span class="date">${day.dateLabel}</span><span class="counts">${day.checkOuts?day.checkOuts+' out':''}${day.checkOuts&&day.checkIns?'<br>':''}${day.checkIns?day.checkIns+' in':''}</span>${day.hasBarbaraVisit?'<span class="dot barbara"></span>':''}${day.hasPoolVisit?'<span class="dot pool"></span>':''}${day.hasLinenChange?'<span class="dot linen"></span>':''}</button>`).join('')}</div><div class="detail"><strong>${selected.weekday} ${fmt(selected.date)}</strong><br>${selected.tasks.length ? selected.tasks.join('<br>') : '<span class="empty">Nenhuma tarefa.</span>'}</div></section>
+  <section class="card"><h2>Lavanderia</h2>${data.laundry ? `<div class="row"><span class="label">${data.laundry.orderLabel}</span><span class="units">${fmt(data.laundry.periodStart)} - ${fmt(data.laundry.periodEnd)}</span></div><div class="row"><span class="label">Atualizado</span><span class="units">${fmtDateTime(data.laundry.generatedAt)}</span></div><button class="laundry-toggle" onclick="laundryOpen=!laundryOpen;render()">Ver lista de enxoval</button><div class="laundry-list ${laundryOpen?'open':''}">${data.laundry.totals.map(t => `<div class="total"><span>${t.label}</span><strong>${t.total}</strong></div>`).join('')}</div>` : '<p class="empty">Nenhum cálculo salvo.</p>'}</section>`;
+}
+render();
+</script>
+</body>
+</html>

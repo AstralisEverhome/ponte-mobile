@@ -1,0 +1,187 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-08-04T16:18:03.415637+02:00",
+  "today": "2026-08-04",
+  "tomorrow": "2026-08-05",
+  "todaySummary": {
+    "checkIns": [
+      "6",
+      "7A",
+      "11"
+    ],
+    "checkOuts": []
+  },
+  "tomorrowSummary": {
+    "checkIns": [
+      "8",
+      "Villa"
+    ],
+    "checkOuts": [
+      "7B"
+    ]
+  },
+  "prioritiesToday": [
+    {
+      "title": "Troca de lençóis — 10",
+      "done": true,
+      "cancelled": false
+    },
+    {
+      "title": "Check lav",
+      "done": true,
+      "cancelled": false
+    }
+  ],
+  "weekRadar": [
+    {
+      "weekday": "SEG",
+      "date": "2026-08-03",
+      "dateLabel": "03",
+      "checkIns": 2,
+      "checkOuts": 0,
+      "tasks": [
+        "App 5 = culla",
+        "Giulivo scarichi e depuratore",
+        "Pedido piscina"
+      ],
+      "hasLinenChange": false,
+      "hasBarbaraVisit": false,
+      "hasPoolVisit": false,
+      "isToday": false,
+      "isDayOff": false
+    },
+    {
+      "weekday": "TER",
+      "date": "2026-08-04",
+      "dateLabel": "04",
+      "checkIns": 3,
+      "checkOuts": 0,
+      "tasks": [
+        "Troca de lençóis — 10",
+        "Check lav"
+      ],
+      "hasLinenChange": true,
+      "hasBarbaraVisit": false,
+      "hasPoolVisit": false,
+      "isToday": true,
+      "isDayOff": false
+    },
+    {
+      "weekday": "QUA",
+      "date": "2026-08-05",
+      "dateLabel": "05",
+      "checkIns": 2,
+      "checkOuts": 1,
+      "tasks": [],
+      "hasLinenChange": false,
+      "hasBarbaraVisit": false,
+      "hasPoolVisit": false,
+      "isToday": false,
+      "isDayOff": false
+    },
+    {
+      "weekday": "QUI",
+      "date": "2026-08-06",
+      "dateLabel": "06",
+      "checkIns": 0,
+      "checkOuts": 0,
+      "tasks": [
+        "Check lav"
+      ],
+      "hasLinenChange": false,
+      "hasBarbaraVisit": false,
+      "hasPoolVisit": false,
+      "isToday": false,
+      "isDayOff": true
+    },
+    {
+      "weekday": "SEX",
+      "date": "2026-08-07",
+      "dateLabel": "07",
+      "checkIns": 4,
+      "checkOuts": 5,
+      "tasks": [
+        "B = 5, 9"
+      ],
+      "hasLinenChange": false,
+      "hasBarbaraVisit": true,
+      "hasPoolVisit": false,
+      "isToday": false,
+      "isDayOff": false
+    },
+    {
+      "weekday": "SÁB",
+      "date": "2026-08-08",
+      "dateLabel": "08",
+      "checkIns": 2,
+      "checkOuts": 1,
+      "tasks": [],
+      "hasLinenChange": false,
+      "hasBarbaraVisit": false,
+      "hasPoolVisit": false,
+      "isToday": false,
+      "isDayOff": false
+    },
+    {
+      "weekday": "DOM",
+      "date": "2026-08-09",
+      "dateLabel": "09",
+      "checkIns": 0,
+      "checkOuts": 1,
+      "tasks": [
+        "Troca de lençóis — 2",
+        "B = V"
+      ],
+      "hasLinenChange": true,
+      "hasBarbaraVisit": true,
+      "hasPoolVisit": false,
+      "isToday": false,
+      "isDayOff": false
+    }
+  ],
+  "laundry": {
+    "orderLabel": "Pedido de terça-feira",
+    "generatedAt": "2026-08-04T09:26:20.463892+02:00",
+    "periodStart": "2026-08-05",
+    "periodEnd": "2026-08-06",
+    "margin": 0.1,
+    "totals": [
+      {
+        "label": "Lençóis casal",
+        "total": 9
+      },
+      {
+        "label": "Lençóis solteiro",
+        "total": 14
+      },
+      {
+        "label": "Fronhas",
+        "total": 16
+      },
+      {
+        "label": "Toalhas banho",
+        "total": 16
+      },
+      {
+        "label": "Toalhas rosto",
+        "total": 16
+      },
+      {
+        "label": "Toalhas bidê",
+        "total": 16
+      },
+      {
+        "label": "Tapetes banheiro",
+        "total": 5
+      },
+      {
+        "label": "Toalhas mesa",
+        "total": 4
+      },
+      {
+        "label": "Panos de prato",
+        "total": 4
+      }
+    ]
+  }
+}
