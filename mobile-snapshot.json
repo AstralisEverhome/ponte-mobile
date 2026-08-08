@@ -1,24 +1,9 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-07T18:12:36.978851+02:00",
-  "today": "2026-08-07",
-  "tomorrow": "2026-08-08",
+  "generatedAt": "2026-08-08T09:29:59.645699+02:00",
+  "today": "2026-08-08",
+  "tomorrow": "2026-08-09",
   "todaySummary": {
-    "checkIns": [
-      "5",
-      "6",
-      "7A",
-      "9"
-    ],
-    "checkOuts": [
-      "1",
-      "5",
-      "6",
-      "7A",
-      "9"
-    ]
-  },
-  "tomorrowSummary": {
     "checkIns": [
       "3",
       "4",
@@ -28,13 +13,13 @@
       "3"
     ]
   },
-  "prioritiesToday": [
-    {
-      "title": "B = 5, 9",
-      "done": true,
-      "cancelled": false
-    }
-  ],
+  "tomorrowSummary": {
+    "checkIns": [],
+    "checkOuts": [
+      "Villa"
+    ]
+  },
+  "prioritiesToday": [],
   "weekRadar": [
     {
       "weekday": "SEG",
@@ -74,7 +59,7 @@
       "date": "2026-08-05",
       "dateLabel": "05",
       "checkIns": 2,
-      "checkOuts": 1,
+      "checkOuts": 0,
       "tasks": [
         "Foglio Mirela",
         "Chec lav"
@@ -112,7 +97,7 @@
       "hasLinenChange": false,
       "hasBarbaraVisit": true,
       "hasPoolVisit": false,
-      "isToday": true,
+      "isToday": false,
       "isDayOff": false
     },
     {
@@ -125,7 +110,7 @@
       "hasLinenChange": false,
       "hasBarbaraVisit": false,
       "hasPoolVisit": false,
-      "isToday": false,
+      "isToday": true,
       "isDayOff": false
     },
     {
