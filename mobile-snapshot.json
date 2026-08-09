@@ -1,25 +1,42 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-08T17:34:55.489334+02:00",
-  "today": "2026-08-08",
-  "tomorrow": "2026-08-09",
+  "generatedAt": "2026-08-09T09:05:03.652819+02:00",
+  "today": "2026-08-09",
+  "tomorrow": "2026-08-10",
   "todaySummary": {
-    "checkIns": [
-      "3",
-      "4",
-      "7B"
-    ],
-    "checkOuts": [
-      "3"
-    ]
-  },
-  "tomorrowSummary": {
     "checkIns": [],
     "checkOuts": [
       "Villa"
     ]
   },
-  "prioritiesToday": [],
+  "tomorrowSummary": {
+    "checkIns": [
+      "1",
+      "5",
+      "8",
+      "9",
+      "Villa"
+    ],
+    "checkOuts": [
+      "5",
+      "6",
+      "8",
+      "9",
+      "12"
+    ]
+  },
+  "prioritiesToday": [
+    {
+      "title": "Troca de lençóis — 2",
+      "done": false,
+      "cancelled": false
+    },
+    {
+      "title": "B = V",
+      "done": false,
+      "cancelled": false
+    }
+  ],
   "weekRadar": [
     {
       "weekday": "SEG",
@@ -110,7 +127,7 @@
       "hasLinenChange": false,
       "hasBarbaraVisit": false,
       "hasPoolVisit": false,
-      "isToday": true,
+      "isToday": false,
       "isDayOff": false
     },
     {
@@ -126,7 +143,7 @@
       "hasLinenChange": true,
       "hasBarbaraVisit": true,
       "hasPoolVisit": false,
-      "isToday": false,
+      "isToday": true,
       "isDayOff": false
     }
   ],
