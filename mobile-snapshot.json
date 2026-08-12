@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-12T15:49:14.501529+02:00",
+  "generatedAt": "2026-08-12T15:54:21.878203+02:00",
   "today": "2026-08-12",
   "tomorrow": "2026-08-13",
   "todaySummary": {
@@ -21,7 +21,13 @@
       "9"
     ]
   },
-  "prioritiesToday": [],
+  "prioritiesToday": [
+    {
+      "title": "Troca lençois app 11",
+      "done": false,
+      "cancelled": false
+    }
+  ],
   "weekRadar": [
     {
       "weekday": "SEG",
@@ -62,7 +68,9 @@
       "dateLabel": "12",
       "checkIns": 1,
       "checkOuts": 2,
-      "tasks": [],
+      "tasks": [
+        "Troca lençois app 11"
+      ],
       "hasLinenChange": false,
       "hasBarbaraVisit": false,
       "hasPoolVisit": false,
