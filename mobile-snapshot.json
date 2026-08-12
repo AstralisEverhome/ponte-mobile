@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-12T15:54:21.878203+02:00",
+  "generatedAt": "2026-08-12T18:37:18.370312+02:00",
   "today": "2026-08-12",
   "tomorrow": "2026-08-13",
   "todaySummary": {
@@ -24,7 +24,7 @@
   "prioritiesToday": [
     {
       "title": "Troca lençois app 11",
-      "done": false,
+      "done": true,
       "cancelled": false
     }
   ],
