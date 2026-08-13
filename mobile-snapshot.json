@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-13T17:37:36.195408+02:00",
+  "generatedAt": "2026-08-13T17:37:41.460809+02:00",
   "today": "2026-08-13",
   "tomorrow": "2026-08-14",
   "todaySummary": {
     "checkIns": [
-      "12",
-      "6"
+      "6",
+      "12"
     ],
     "checkOuts": [
       "9"
