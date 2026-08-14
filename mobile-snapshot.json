@@ -1,32 +1,32 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-13T17:37:41.460809+02:00",
-  "today": "2026-08-13",
-  "tomorrow": "2026-08-14",
+  "generatedAt": "2026-08-14T17:46:08.007585+02:00",
+  "today": "2026-08-14",
+  "tomorrow": "2026-08-15",
   "todaySummary": {
-    "checkIns": [
-      "6",
-      "12"
-    ],
-    "checkOuts": [
-      "9"
-    ]
-  },
-  "tomorrowSummary": {
     "checkIns": [
       "9"
     ],
     "checkOuts": []
   },
+  "tomorrowSummary": {
+    "checkIns": [
+      "1",
+      "5",
+      "7B",
+      "8"
+    ],
+    "checkOuts": [
+      "1",
+      "5",
+      "7B",
+      "8"
+    ]
+  },
   "prioritiesToday": [
     {
-      "title": "Pedido piscina",
+      "title": "Pool",
       "done": false,
-      "cancelled": false
-    },
-    {
-      "title": "Check lav",
-      "done": true,
       "cancelled": false
     }
   ],
@@ -53,7 +53,7 @@
       "date": "2026-08-11",
       "dateLabel": "11",
       "checkIns": 1,
-      "checkOuts": 1,
+      "checkOuts": 0,
       "tasks": [
         "Troca de lençóis — 11",
         "Check lav"
@@ -92,7 +92,7 @@
       "hasLinenChange": false,
       "hasBarbaraVisit": false,
       "hasPoolVisit": false,
-      "isToday": true,
+      "isToday": false,
       "isDayOff": false
     },
     {
@@ -107,7 +107,7 @@
       "hasLinenChange": false,
       "hasBarbaraVisit": false,
       "hasPoolVisit": true,
-      "isToday": false,
+      "isToday": true,
       "isDayOff": false
     },
     {
