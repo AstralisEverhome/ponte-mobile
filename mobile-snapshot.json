@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-17T18:34:50.820866+02:00",
+  "generatedAt": "2026-08-17T18:35:12.906117+02:00",
   "today": "2026-08-17",
   "tomorrow": "2026-08-18",
   "todaySummary": {
@@ -74,7 +74,7 @@
       "hasBarbaraVisit": false,
       "hasPoolVisit": false,
       "isToday": false,
-      "isDayOff": false
+      "isDayOff": true
     },
     {
       "weekday": "QUI",
@@ -85,7 +85,8 @@
       "tasks": [
         "B = 6",
         "Check lav",
-        "Fotovoltaico"
+        "Fotovoltaico",
+        "Fabbro"
       ],
       "hasLinenChange": false,
       "hasBarbaraVisit": true,
