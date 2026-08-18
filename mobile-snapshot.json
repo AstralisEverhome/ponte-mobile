@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-18T09:29:49.930690+02:00",
+  "generatedAt": "2026-08-18T09:29:58.795314+02:00",
   "today": "2026-08-18",
   "tomorrow": "2026-08-19",
   "todaySummary": {
@@ -14,8 +14,8 @@
     "checkOuts": [
       "1",
       "4",
-      "Villa",
-      "11"
+      "11",
+      "Villa"
     ]
   },
   "tomorrowSummary": {
