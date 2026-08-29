@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-29T13:00:29.204006+02:00",
+  "generatedAt": "2026-08-29T13:02:45.528887+02:00",
   "today": "2026-08-29",
   "tomorrow": "2026-08-30",
   "todaySummary": {
@@ -42,7 +42,7 @@
     },
     {
       "title": "B = 8, 12",
-      "done": false,
+      "done": true,
       "cancelled": false
     }
   ],
