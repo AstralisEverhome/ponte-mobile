@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-30T15:36:08.530540+02:00",
+  "generatedAt": "2026-08-30T15:51:35.368269+02:00",
   "today": "2026-08-30",
   "tomorrow": "2026-08-31",
   "todaySummary": {
@@ -29,12 +29,12 @@
       "cancelled": false
     },
     {
-      "title": "Fotovoltaico",
-      "done": false,
+      "title": "B = 10",
+      "done": true,
       "cancelled": false
     },
     {
-      "title": "B = 10",
+      "title": "Fotovoltaico",
       "done": true,
       "cancelled": false
     }
@@ -139,8 +139,8 @@
       "checkOuts": 3,
       "tasks": [
         "Troca de lençóis — 3",
-        "Fotovoltaico",
-        "B = 10"
+        "B = 10",
+        "Fotovoltaico"
       ],
       "hasLinenChange": true,
       "hasBarbaraVisit": true,
