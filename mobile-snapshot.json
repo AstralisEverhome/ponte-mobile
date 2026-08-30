@@ -1,23 +1,9 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-29T18:18:01.382569+02:00",
-  "today": "2026-08-29",
-  "tomorrow": "2026-08-30",
+  "generatedAt": "2026-08-30T15:35:41.716483+02:00",
+  "today": "2026-08-30",
+  "tomorrow": "2026-08-31",
   "todaySummary": {
-    "checkIns": [
-      "2",
-      "5",
-      "6",
-      "8",
-      "12"
-    ],
-    "checkOuts": [
-      "2",
-      "8",
-      "12"
-    ]
-  },
-  "tomorrowSummary": {
     "checkIns": [
       "9",
       "10"
@@ -28,20 +14,28 @@
       "10"
     ]
   },
+  "tomorrowSummary": {
+    "checkIns": [
+      "1"
+    ],
+    "checkOuts": [
+      "7B"
+    ]
+  },
   "prioritiesToday": [
     {
-      "title": "Troca de lençóis — Villa",
+      "title": "Troca de lençóis — 3",
       "done": false,
       "cancelled": false
     },
     {
-      "title": "Troca de lençóis — 4",
-      "done": true,
+      "title": "B = 10",
+      "done": false,
       "cancelled": false
     },
     {
-      "title": "B = 8, 12",
-      "done": true,
+      "title": "Fotovoltaico",
+      "done": false,
       "cancelled": false
     }
   ],
@@ -92,7 +86,7 @@
       "date": "2026-08-27",
       "dateLabel": "27",
       "checkIns": 2,
-      "checkOuts": 1,
+      "checkOuts": 0,
       "tasks": [
         "Pedido piscina",
         "Troca de lençóis — 7A",
@@ -134,7 +128,7 @@
       "hasLinenChange": true,
       "hasBarbaraVisit": true,
       "hasPoolVisit": false,
-      "isToday": true,
+      "isToday": false,
       "isDayOff": false
     },
     {
@@ -151,7 +145,7 @@
       "hasLinenChange": true,
       "hasBarbaraVisit": true,
       "hasPoolVisit": false,
-      "isToday": false,
+      "isToday": true,
       "isDayOff": false
     }
   ],
