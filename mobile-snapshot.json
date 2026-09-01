@@ -1,17 +1,9 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-31T18:36:27.210353+02:00",
-  "today": "2026-08-31",
-  "tomorrow": "2026-09-01",
+  "generatedAt": "2026-09-01T15:20:16.551314+02:00",
+  "today": "2026-09-01",
+  "tomorrow": "2026-09-02",
   "todaySummary": {
-    "checkIns": [
-      "1"
-    ],
-    "checkOuts": [
-      "7B"
-    ]
-  },
-  "tomorrowSummary": {
     "checkIns": [
       "7B"
     ],
@@ -19,7 +11,22 @@
       "12"
     ]
   },
-  "prioritiesToday": [],
+  "tomorrowSummary": {
+    "checkIns": [
+      "8"
+    ],
+    "checkOuts": [
+      "5",
+      "8"
+    ]
+  },
+  "prioritiesToday": [
+    {
+      "title": "Check lav",
+      "done": false,
+      "cancelled": false
+    }
+  ],
   "weekRadar": [
     {
       "weekday": "SEG",
@@ -31,7 +38,7 @@
       "hasLinenChange": false,
       "hasBarbaraVisit": false,
       "hasPoolVisit": false,
-      "isToday": true,
+      "isToday": false,
       "isDayOff": false
     },
     {
@@ -46,7 +53,7 @@
       "hasLinenChange": false,
       "hasBarbaraVisit": false,
       "hasPoolVisit": false,
-      "isToday": false,
+      "isToday": true,
       "isDayOff": false
     },
     {
@@ -121,46 +128,46 @@
   ],
   "laundry": {
     "orderLabel": "Consulta de enxoval",
-    "generatedAt": "2026-08-27T09:04:00.952622+02:00",
-    "periodStart": "2026-08-27",
-    "periodEnd": "2026-09-01",
+    "generatedAt": "2026-08-31T18:37:38.057064+02:00",
+    "periodStart": "2026-08-31",
+    "periodEnd": "2026-09-03",
     "margin": 0.0,
     "totals": [
       {
         "label": "Lençóis casal",
-        "total": 44
+        "total": 18
       },
       {
         "label": "Lençóis solteiro",
-        "total": 62
-      },
-      {
-        "label": "Fronhas",
-        "total": 75
-      },
-      {
-        "label": "Toalhas banho",
-        "total": 75
-      },
-      {
-        "label": "Toalhas rosto",
-        "total": 75
-      },
-      {
-        "label": "Toalhas bidê",
-        "total": 75
-      },
-      {
-        "label": "Tapetes banheiro",
         "total": 26
       },
       {
+        "label": "Fronhas",
+        "total": 31
+      },
+      {
+        "label": "Toalhas banho",
+        "total": 31
+      },
+      {
+        "label": "Toalhas rosto",
+        "total": 31
+      },
+      {
+        "label": "Toalhas bidê",
+        "total": 31
+      },
+      {
+        "label": "Tapetes banheiro",
+        "total": 11
+      },
+      {
         "label": "Toalhas mesa",
-        "total": 18
+        "total": 8
       },
       {
         "label": "Panos de prato",
-        "total": 18
+        "total": 8
       }
     ]
   }
