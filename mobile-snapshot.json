@@ -1,19 +1,9 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-04T18:53:42.638249+02:00",
-  "today": "2026-09-04",
-  "tomorrow": "2026-09-05",
+  "generatedAt": "2026-09-05T11:42:29.730388+02:00",
+  "today": "2026-09-05",
+  "tomorrow": "2026-09-06",
   "todaySummary": {
-    "checkIns": [
-      "4"
-    ],
-    "checkOuts": [
-      "3",
-      "4",
-      "9"
-    ]
-  },
-  "tomorrowSummary": {
     "checkIns": [
       "5",
       "7B",
@@ -22,14 +12,21 @@
     "checkOuts": [
       "7B",
       "8",
-      "6",
-      "Villa"
+      "6"
+    ]
+  },
+  "tomorrowSummary": {
+    "checkIns": [],
+    "checkOuts": [
+      "1",
+      "2",
+      "7A"
     ]
   },
   "prioritiesToday": [
     {
-      "title": "B = 3",
-      "done": true,
+      "title": "B = 8",
+      "done": false,
       "cancelled": false
     }
   ],
@@ -67,7 +64,7 @@
       "date": "2026-09-02",
       "dateLabel": "02",
       "checkIns": 1,
-      "checkOuts": 2,
+      "checkOuts": 0,
       "tasks": [
         "B = 5, 8"
       ],
@@ -98,14 +95,14 @@
       "date": "2026-09-04",
       "dateLabel": "04",
       "checkIns": 1,
-      "checkOuts": 3,
+      "checkOuts": 4,
       "tasks": [
         "B = 3"
       ],
       "hasLinenChange": false,
       "hasBarbaraVisit": true,
       "hasPoolVisit": false,
-      "isToday": true,
+      "isToday": false,
       "isDayOff": false
     },
     {
@@ -113,14 +110,14 @@
       "date": "2026-09-05",
       "dateLabel": "05",
       "checkIns": 3,
-      "checkOuts": 4,
+      "checkOuts": 3,
       "tasks": [
         "B = 8"
       ],
       "hasLinenChange": false,
       "hasBarbaraVisit": true,
       "hasPoolVisit": false,
-      "isToday": false,
+      "isToday": true,
       "isDayOff": false
     },
     {
