@@ -1,17 +1,9 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-06T18:54:00.625841+02:00",
-  "today": "2026-09-06",
-  "tomorrow": "2026-09-07",
+  "generatedAt": "2026-09-07T10:12:35.279970+02:00",
+  "today": "2026-09-07",
+  "tomorrow": "2026-09-08",
   "todaySummary": {
-    "checkIns": [],
-    "checkOuts": [
-      "1",
-      "2",
-      "7A"
-    ]
-  },
-  "tomorrowSummary": {
     "checkIns": [
       "11"
     ],
@@ -19,23 +11,92 @@
       "11"
     ]
   },
-  "prioritiesToday": [
-    {
-      "title": "Troca de lençóis — 10",
-      "done": true,
-      "cancelled": false
-    },
-    {
-      "title": "B = V",
-      "done": true,
-      "cancelled": false
-    }
-  ],
+  "tomorrowSummary": {
+    "checkIns": [],
+    "checkOuts": [
+      "7B",
+      "12"
+    ]
+  },
+  "prioritiesToday": [],
   "weekRadar": [
     {
       "weekday": "SEG",
-      "date": "2026-08-31",
-      "dateLabel": "31",
+      "date": "2026-09-07",
+      "dateLabel": "07",
+      "checkIns": 1,
+      "checkOuts": 1,
+      "tasks": [],
+      "hasLinenChange": false,
+      "hasBarbaraVisit": false,
+      "hasPoolVisit": false,
+      "isToday": true,
+      "isDayOff": false
+    },
+    {
+      "weekday": "TER",
+      "date": "2026-09-08",
+      "dateLabel": "08",
+      "checkIns": 0,
+      "checkOuts": 2,
+      "tasks": [
+        "Check lav"
+      ],
+      "hasLinenChange": false,
+      "hasBarbaraVisit": false,
+      "hasPoolVisit": false,
+      "isToday": false,
+      "isDayOff": true
+    },
+    {
+      "weekday": "QUA",
+      "date": "2026-09-09",
+      "dateLabel": "09",
+      "checkIns": 3,
+      "checkOuts": 0,
+      "tasks": [],
+      "hasLinenChange": false,
+      "hasBarbaraVisit": false,
+      "hasPoolVisit": false,
+      "isToday": false,
+      "isDayOff": false
+    },
+    {
+      "weekday": "QUI",
+      "date": "2026-09-10",
+      "dateLabel": "10",
+      "checkIns": 4,
+      "checkOuts": 1,
+      "tasks": [
+        "Check lav",
+        "Fotovoltaico",
+        "Pedido piscina"
+      ],
+      "hasLinenChange": false,
+      "hasBarbaraVisit": false,
+      "hasPoolVisit": false,
+      "isToday": false,
+      "isDayOff": false
+    },
+    {
+      "weekday": "SEX",
+      "date": "2026-09-11",
+      "dateLabel": "11",
+      "checkIns": 1,
+      "checkOuts": 1,
+      "tasks": [
+        "Pool"
+      ],
+      "hasLinenChange": false,
+      "hasBarbaraVisit": false,
+      "hasPoolVisit": true,
+      "isToday": false,
+      "isDayOff": false
+    },
+    {
+      "weekday": "SÁB",
+      "date": "2026-09-12",
+      "dateLabel": "12",
       "checkIns": 1,
       "checkOuts": 0,
       "tasks": [],
@@ -46,95 +107,18 @@
       "isDayOff": false
     },
     {
-      "weekday": "TER",
-      "date": "2026-09-01",
-      "dateLabel": "01",
-      "checkIns": 1,
-      "checkOuts": 0,
-      "tasks": [
-        "Check lav"
-      ],
-      "hasLinenChange": false,
-      "hasBarbaraVisit": false,
-      "hasPoolVisit": false,
-      "isToday": false,
-      "isDayOff": false
-    },
-    {
-      "weekday": "QUA",
-      "date": "2026-09-02",
-      "dateLabel": "02",
-      "checkIns": 1,
-      "checkOuts": 0,
-      "tasks": [
-        "B = 5, 8"
-      ],
-      "hasLinenChange": false,
-      "hasBarbaraVisit": true,
-      "hasPoolVisit": false,
-      "isToday": false,
-      "isDayOff": false
-    },
-    {
-      "weekday": "QUI",
-      "date": "2026-09-03",
-      "dateLabel": "03",
-      "checkIns": 4,
-      "checkOuts": 0,
-      "tasks": [
-        "B = 7A, 11",
-        "Check lav"
-      ],
-      "hasLinenChange": false,
-      "hasBarbaraVisit": true,
-      "hasPoolVisit": false,
-      "isToday": false,
-      "isDayOff": false
-    },
-    {
-      "weekday": "SEX",
-      "date": "2026-09-04",
-      "dateLabel": "04",
-      "checkIns": 1,
-      "checkOuts": 4,
-      "tasks": [
-        "B = 3"
-      ],
-      "hasLinenChange": false,
-      "hasBarbaraVisit": true,
-      "hasPoolVisit": false,
-      "isToday": false,
-      "isDayOff": false
-    },
-    {
-      "weekday": "SÁB",
-      "date": "2026-09-05",
-      "dateLabel": "05",
-      "checkIns": 3,
-      "checkOuts": 3,
-      "tasks": [
-        "B = 8"
-      ],
-      "hasLinenChange": false,
-      "hasBarbaraVisit": true,
-      "hasPoolVisit": false,
-      "isToday": false,
-      "isDayOff": false
-    },
-    {
       "weekday": "DOM",
-      "date": "2026-09-06",
-      "dateLabel": "06",
-      "checkIns": 0,
-      "checkOuts": 3,
+      "date": "2026-09-13",
+      "dateLabel": "13",
+      "checkIns": 2,
+      "checkOuts": 8,
       "tasks": [
-        "Troca de lençóis — 10",
-        "B = V"
+        "B = 9, 10"
       ],
-      "hasLinenChange": true,
+      "hasLinenChange": false,
       "hasBarbaraVisit": true,
       "hasPoolVisit": false,
-      "isToday": true,
+      "isToday": false,
       "isDayOff": false
     }
   ],
