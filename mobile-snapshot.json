@@ -1,17 +1,9 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-09T21:07:05.819998+02:00",
-  "today": "2026-09-09",
-  "tomorrow": "2026-09-10",
+  "generatedAt": "2026-09-10T12:17:30.446185+02:00",
+  "today": "2026-09-10",
+  "tomorrow": "2026-09-11",
   "todaySummary": {
-    "checkIns": [
-      "3",
-      "7A",
-      "9"
-    ],
-    "checkOuts": []
-  },
-  "tomorrowSummary": {
     "checkIns": [
       "1",
       "2",
@@ -22,14 +14,38 @@
       "4"
     ]
   },
-  "prioritiesToday": [],
+  "tomorrowSummary": {
+    "checkIns": [
+      "4"
+    ],
+    "checkOuts": [
+      "8"
+    ]
+  },
+  "prioritiesToday": [
+    {
+      "title": "Check lav",
+      "done": false,
+      "cancelled": false
+    },
+    {
+      "title": "Fotovoltaico",
+      "done": false,
+      "cancelled": false
+    },
+    {
+      "title": "Pedido piscina",
+      "done": false,
+      "cancelled": false
+    }
+  ],
   "weekRadar": [
     {
       "weekday": "SEG",
       "date": "2026-09-07",
       "dateLabel": "07",
       "checkIns": 1,
-      "checkOuts": 1,
+      "checkOuts": 0,
       "tasks": [],
       "hasLinenChange": false,
       "hasBarbaraVisit": false,
@@ -62,7 +78,7 @@
       "hasLinenChange": false,
       "hasBarbaraVisit": false,
       "hasPoolVisit": false,
-      "isToday": true,
+      "isToday": false,
       "isDayOff": false
     },
     {
@@ -79,7 +95,7 @@
       "hasLinenChange": false,
       "hasBarbaraVisit": false,
       "hasPoolVisit": false,
-      "isToday": false,
+      "isToday": true,
       "isDayOff": false
     },
     {
