@@ -1,29 +1,31 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-11T15:15:33.038678+02:00",
-  "today": "2026-09-11",
-  "tomorrow": "2026-09-12",
+  "generatedAt": "2026-09-12T09:58:26.900545+02:00",
+  "today": "2026-09-12",
+  "tomorrow": "2026-09-13",
   "todaySummary": {
-    "checkIns": [
-      "4"
-    ],
-    "checkOuts": [
-      "8"
-    ]
-  },
-  "tomorrowSummary": {
     "checkIns": [
       "12"
     ],
     "checkOuts": []
   },
-  "prioritiesToday": [
-    {
-      "title": "Pool",
-      "done": true,
-      "cancelled": false
-    }
-  ],
+  "tomorrowSummary": {
+    "checkIns": [
+      "5",
+      "8"
+    ],
+    "checkOuts": [
+      "1",
+      "3",
+      "5",
+      "6",
+      "7A",
+      "9",
+      "10",
+      "11"
+    ]
+  },
+  "prioritiesToday": [],
   "weekRadar": [
     {
       "weekday": "SEG",
@@ -95,7 +97,7 @@
       "hasLinenChange": false,
       "hasBarbaraVisit": false,
       "hasPoolVisit": true,
-      "isToday": true,
+      "isToday": false,
       "isDayOff": false
     },
     {
@@ -108,7 +110,7 @@
       "hasLinenChange": false,
       "hasBarbaraVisit": false,
       "hasPoolVisit": false,
-      "isToday": false,
+      "isToday": true,
       "isDayOff": false
     },
     {
