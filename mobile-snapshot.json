@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-13T12:38:34.621348+02:00",
+  "generatedAt": "2026-09-13T12:38:39.189396+02:00",
   "today": "2026-09-13",
   "tomorrow": "2026-09-14",
   "todaySummary": {
@@ -26,7 +26,7 @@
   "prioritiesToday": [
     {
       "title": "B = 9, 10, 11",
-      "done": false,
+      "done": true,
       "cancelled": false
     }
   ],
