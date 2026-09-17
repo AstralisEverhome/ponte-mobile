@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-17T10:50:31.688087+02:00",
+  "generatedAt": "2026-09-17T11:04:14.422670+02:00",
   "today": "2026-09-17",
   "tomorrow": "2026-09-18",
   "todaySummary": {
@@ -25,7 +25,7 @@
   "prioritiesToday": [
     {
       "title": "Check lav",
-      "done": false,
+      "done": true,
       "cancelled": false
     }
   ],
