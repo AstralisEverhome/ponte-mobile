@@ -1,20 +1,9 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-21T20:53:42.253563+02:00",
-  "today": "2026-09-21",
-  "tomorrow": "2026-09-22",
+  "generatedAt": "2026-09-22T10:07:13.404461+02:00",
+  "today": "2026-09-22",
+  "tomorrow": "2026-09-23",
   "todaySummary": {
-    "checkIns": [
-      "1",
-      "4",
-      "9"
-    ],
-    "checkOuts": [
-      "4",
-      "9"
-    ]
-  },
-  "tomorrowSummary": {
     "checkIns": [
       "2",
       "7A",
@@ -26,19 +15,36 @@
       "11"
     ]
   },
-  "prioritiesToday": [],
+  "tomorrowSummary": {
+    "checkIns": [
+      "11"
+    ],
+    "checkOuts": []
+  },
+  "prioritiesToday": [
+    {
+      "title": "B = 1, 11",
+      "done": false,
+      "cancelled": false
+    },
+    {
+      "title": "Check lav",
+      "done": false,
+      "cancelled": false
+    }
+  ],
   "weekRadar": [
     {
       "weekday": "SEG",
       "date": "2026-09-21",
       "dateLabel": "21",
-      "checkIns": 3,
+      "checkIns": 4,
       "checkOuts": 2,
       "tasks": [],
       "hasLinenChange": false,
       "hasBarbaraVisit": false,
       "hasPoolVisit": false,
-      "isToday": true,
+      "isToday": false,
       "isDayOff": false
     },
     {
@@ -54,7 +60,7 @@
       "hasLinenChange": false,
       "hasBarbaraVisit": true,
       "hasPoolVisit": false,
-      "isToday": false,
+      "isToday": true,
       "isDayOff": false
     },
     {
@@ -91,7 +97,7 @@
       "date": "2026-09-25",
       "dateLabel": "25",
       "checkIns": 4,
-      "checkOuts": 3,
+      "checkOuts": 4,
       "tasks": [
         "Pool"
       ],
