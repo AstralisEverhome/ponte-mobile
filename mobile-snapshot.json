@@ -1,17 +1,9 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-24T15:16:31.594127+02:00",
-  "today": "2026-09-24",
-  "tomorrow": "2026-09-25",
+  "generatedAt": "2026-09-25T08:44:43.126137+02:00",
+  "today": "2026-09-25",
+  "tomorrow": "2026-09-26",
   "todaySummary": {
-    "checkIns": [
-      "3"
-    ],
-    "checkOuts": [
-      "6"
-    ]
-  },
-  "tomorrowSummary": {
     "checkIns": [
       "1",
       "8",
@@ -24,15 +16,23 @@
       "10"
     ]
   },
+  "tomorrowSummary": {
+    "checkIns": [
+      "2"
+    ],
+    "checkOuts": [
+      "2",
+      "5",
+      "7A",
+      "7B",
+      "11",
+      "12"
+    ]
+  },
   "prioritiesToday": [
     {
-      "title": "Pedido piscina",
+      "title": "Pool",
       "done": false,
-      "cancelled": false
-    },
-    {
-      "title": "Check lav",
-      "done": true,
       "cancelled": false
     }
   ],
@@ -55,7 +55,7 @@
       "date": "2026-09-22",
       "dateLabel": "22",
       "checkIns": 3,
-      "checkOuts": 3,
+      "checkOuts": 0,
       "tasks": [
         "B = 7B",
         "Check lav"
@@ -92,7 +92,7 @@
       "hasLinenChange": false,
       "hasBarbaraVisit": false,
       "hasPoolVisit": false,
-      "isToday": true,
+      "isToday": false,
       "isDayOff": false
     },
     {
@@ -107,7 +107,7 @@
       "hasLinenChange": false,
       "hasBarbaraVisit": false,
       "hasPoolVisit": true,
-      "isToday": false,
+      "isToday": true,
       "isDayOff": false
     },
     {
