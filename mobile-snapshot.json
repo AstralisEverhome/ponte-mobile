@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-25T13:45:12.083729+02:00",
+  "generatedAt": "2026-09-25T15:02:52.625159+02:00",
   "today": "2026-09-25",
   "tomorrow": "2026-09-26",
   "todaySummary": {
@@ -31,12 +31,12 @@
   },
   "prioritiesToday": [
     {
-      "title": "B = 10",
-      "done": true,
+      "title": "Pool",
+      "done": false,
       "cancelled": false
     },
     {
-      "title": "Pool",
+      "title": "B = 10",
       "done": true,
       "cancelled": false
     }
@@ -107,8 +107,8 @@
       "checkIns": 4,
       "checkOuts": 3,
       "tasks": [
-        "B = 10",
-        "Pool"
+        "Pool",
+        "B = 10"
       ],
       "hasLinenChange": false,
       "hasBarbaraVisit": true,
