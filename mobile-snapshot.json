@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-28T11:14:39.782849+02:00",
+  "generatedAt": "2026-09-28T11:15:13.588624+02:00",
   "today": "2026-09-28",
   "tomorrow": "2026-09-29",
   "todaySummary": {
@@ -71,10 +71,11 @@
       "checkIns": 3,
       "checkOuts": 2,
       "tasks": [
+        "B = 5",
         "Check lav"
       ],
       "hasLinenChange": false,
-      "hasBarbaraVisit": false,
+      "hasBarbaraVisit": true,
       "hasPoolVisit": false,
       "isToday": false,
       "isDayOff": false
