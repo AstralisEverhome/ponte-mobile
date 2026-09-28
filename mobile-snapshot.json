@@ -1,19 +1,9 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-27T17:48:25.071715+02:00",
-  "today": "2026-09-27",
-  "tomorrow": "2026-09-28",
+  "generatedAt": "2026-09-28T10:10:55.569944+02:00",
+  "today": "2026-09-28",
+  "tomorrow": "2026-09-29",
   "todaySummary": {
-    "checkIns": [
-      "5",
-      "7A",
-      "12"
-    ],
-    "checkOuts": [
-      "10"
-    ]
-  },
-  "tomorrowSummary": {
     "checkIns": [
       "7B",
       "8"
@@ -23,15 +13,36 @@
       "8"
     ]
   },
+  "tomorrowSummary": {
+    "checkIns": [],
+    "checkOuts": [
+      "3"
+    ]
+  },
   "prioritiesToday": [],
   "weekRadar": [
     {
       "weekday": "SEG",
-      "date": "2026-09-21",
-      "dateLabel": "21",
+      "date": "2026-09-28",
+      "dateLabel": "28",
       "checkIns": 2,
-      "checkOuts": 0,
+      "checkOuts": 2,
       "tasks": [],
+      "hasLinenChange": false,
+      "hasBarbaraVisit": false,
+      "hasPoolVisit": false,
+      "isToday": true,
+      "isDayOff": false
+    },
+    {
+      "weekday": "TER",
+      "date": "2026-09-29",
+      "dateLabel": "29",
+      "checkIns": 0,
+      "checkOuts": 1,
+      "tasks": [
+        "Check lav"
+      ],
       "hasLinenChange": false,
       "hasBarbaraVisit": false,
       "hasPoolVisit": false,
@@ -39,28 +50,14 @@
       "isDayOff": false
     },
     {
-      "weekday": "TER",
-      "date": "2026-09-22",
-      "dateLabel": "22",
-      "checkIns": 3,
-      "checkOuts": 0,
-      "tasks": [
-        "B = 7B",
-        "Check lav"
-      ],
-      "hasLinenChange": false,
-      "hasBarbaraVisit": true,
-      "hasPoolVisit": false,
-      "isToday": false,
-      "isDayOff": false
-    },
-    {
       "weekday": "QUA",
-      "date": "2026-09-23",
-      "dateLabel": "23",
-      "checkIns": 1,
-      "checkOuts": 0,
-      "tasks": [],
+      "date": "2026-09-30",
+      "dateLabel": "30",
+      "checkIns": 2,
+      "checkOuts": 2,
+      "tasks": [
+        "Fotovoltaico"
+      ],
       "hasLinenChange": false,
       "hasBarbaraVisit": false,
       "hasPoolVisit": false,
@@ -69,12 +66,11 @@
     },
     {
       "weekday": "QUI",
-      "date": "2026-09-24",
-      "dateLabel": "24",
-      "checkIns": 1,
-      "checkOuts": 0,
+      "date": "2026-10-01",
+      "dateLabel": "01",
+      "checkIns": 3,
+      "checkOuts": 2,
       "tasks": [
-        "Pedido piscina",
         "Check lav"
       ],
       "hasLinenChange": false,
@@ -85,47 +81,44 @@
     },
     {
       "weekday": "SEX",
-      "date": "2026-09-25",
-      "dateLabel": "25",
-      "checkIns": 4,
-      "checkOuts": 3,
-      "tasks": [
-        "B = 10",
-        "Pool"
-      ],
-      "hasLinenChange": false,
-      "hasBarbaraVisit": true,
-      "hasPoolVisit": true,
-      "isToday": false,
-      "isDayOff": false
-    },
-    {
-      "weekday": "SÁB",
-      "date": "2026-09-26",
-      "dateLabel": "26",
-      "checkIns": 1,
-      "checkOuts": 6,
-      "tasks": [
-        "Troca de lençóis — 4",
-        "B = 11, 12"
-      ],
-      "hasLinenChange": true,
-      "hasBarbaraVisit": true,
-      "hasPoolVisit": false,
-      "isToday": false,
-      "isDayOff": false
-    },
-    {
-      "weekday": "DOM",
-      "date": "2026-09-27",
-      "dateLabel": "27",
+      "date": "2026-10-02",
+      "dateLabel": "02",
       "checkIns": 3,
       "checkOuts": 1,
       "tasks": [],
       "hasLinenChange": false,
       "hasBarbaraVisit": false,
       "hasPoolVisit": false,
-      "isToday": true,
+      "isToday": false,
+      "isDayOff": false
+    },
+    {
+      "weekday": "SÁB",
+      "date": "2026-10-03",
+      "dateLabel": "03",
+      "checkIns": 1,
+      "checkOuts": 2,
+      "tasks": [
+        "Troca de lençóis — 2",
+        "Troca de lençóis — 9"
+      ],
+      "hasLinenChange": true,
+      "hasBarbaraVisit": false,
+      "hasPoolVisit": false,
+      "isToday": false,
+      "isDayOff": false
+    },
+    {
+      "weekday": "DOM",
+      "date": "2026-10-04",
+      "dateLabel": "04",
+      "checkIns": 0,
+      "checkOuts": 0,
+      "tasks": [],
+      "hasLinenChange": false,
+      "hasBarbaraVisit": false,
+      "hasPoolVisit": false,
+      "isToday": false,
       "isDayOff": false
     }
   ],
