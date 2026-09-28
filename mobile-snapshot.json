@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-28T10:11:09.163626+02:00",
+  "generatedAt": "2026-09-28T10:11:15.368689+02:00",
   "today": "2026-09-28",
   "tomorrow": "2026-09-29",
   "todaySummary": {
@@ -9,8 +9,8 @@
       "8"
     ],
     "checkOuts": [
-      "8",
-      "1"
+      "1",
+      "8"
     ]
   },
   "tomorrowSummary": {
