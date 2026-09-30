@@ -1,15 +1,9 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-29T21:52:48.942041+02:00",
-  "today": "2026-09-29",
-  "tomorrow": "2026-09-30",
+  "generatedAt": "2026-09-30T09:20:36.731277+02:00",
+  "today": "2026-09-30",
+  "tomorrow": "2026-10-01",
   "todaySummary": {
-    "checkIns": [],
-    "checkOuts": [
-      "3"
-    ]
-  },
-  "tomorrowSummary": {
     "checkIns": [
       "1",
       "3"
@@ -19,9 +13,21 @@
       "12"
     ]
   },
+  "tomorrowSummary": {
+    "checkIns": [
+      "4",
+      "10",
+      "11",
+      "12"
+    ],
+    "checkOuts": [
+      "4",
+      "5"
+    ]
+  },
   "prioritiesToday": [
     {
-      "title": "Check lav",
+      "title": "Fotovoltaico",
       "done": false,
       "cancelled": false
     }
@@ -52,7 +58,7 @@
       "hasLinenChange": false,
       "hasBarbaraVisit": false,
       "hasPoolVisit": false,
-      "isToday": true,
+      "isToday": false,
       "isDayOff": false
     },
     {
@@ -67,14 +73,14 @@
       "hasLinenChange": false,
       "hasBarbaraVisit": false,
       "hasPoolVisit": false,
-      "isToday": false,
+      "isToday": true,
       "isDayOff": false
     },
     {
       "weekday": "QUI",
       "date": "2026-10-01",
       "dateLabel": "01",
-      "checkIns": 3,
+      "checkIns": 4,
       "checkOuts": 2,
       "tasks": [
         "B = 5",
@@ -120,7 +126,7 @@
       "date": "2026-10-04",
       "dateLabel": "04",
       "checkIns": 0,
-      "checkOuts": 0,
+      "checkOuts": 1,
       "tasks": [],
       "hasLinenChange": false,
       "hasBarbaraVisit": false,
