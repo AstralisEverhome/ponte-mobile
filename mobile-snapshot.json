@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-01T10:24:57.941457+02:00",
+  "generatedAt": "2026-10-01T10:49:15.158411+02:00",
   "today": "2026-10-01",
   "tomorrow": "2026-10-02",
   "todaySummary": {
@@ -34,7 +34,7 @@
     },
     {
       "title": "Check lav",
-      "done": false,
+      "done": true,
       "cancelled": false
     }
   ],
