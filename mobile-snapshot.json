@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-01T09:10:05.543452+02:00",
+  "generatedAt": "2026-10-01T09:26:44.317065+02:00",
   "today": "2026-10-01",
   "tomorrow": "2026-10-02",
   "todaySummary": {
@@ -34,7 +34,7 @@
     },
     {
       "title": "Check lav",
-      "done": true,
+      "done": false,
       "cancelled": false
     }
   ],
@@ -142,47 +142,47 @@
     }
   ],
   "laundry": {
-    "orderLabel": "Consulta de enxoval",
-    "generatedAt": "2026-09-28T10:11:48.671840+02:00",
-    "periodStart": "2026-09-28",
-    "periodEnd": "2026-10-01",
-    "margin": 0.0,
+    "orderLabel": "Pedido de quinta-feira",
+    "generatedAt": "2026-10-01T09:21:52.574631+02:00",
+    "periodStart": "2026-10-02",
+    "periodEnd": "2026-10-06",
+    "margin": 0.1,
     "totals": [
       {
         "label": "Lençóis casal",
-        "total": 24
+        "total": 40
       },
       {
         "label": "Lençóis solteiro",
-        "total": 42
+        "total": 49
       },
       {
         "label": "Fronhas",
-        "total": 45
+        "total": 64
       },
       {
         "label": "Toalhas banho",
-        "total": 45
+        "total": 64
       },
       {
         "label": "Toalhas rosto",
-        "total": 45
+        "total": 64
       },
       {
         "label": "Toalhas bidê",
-        "total": 45
+        "total": 64
       },
       {
         "label": "Tapetes banheiro",
-        "total": 18
+        "total": 22
       },
       {
         "label": "Toalhas mesa",
-        "total": 11
+        "total": 16
       },
       {
         "label": "Panos de prato",
-        "total": 11
+        "total": 16
       }
     ]
   }
