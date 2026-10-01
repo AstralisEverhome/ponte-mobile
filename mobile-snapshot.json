@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-01T09:10:00.084926+02:00",
+  "generatedAt": "2026-10-01T09:10:03.326293+02:00",
   "today": "2026-10-01",
   "tomorrow": "2026-10-02",
   "todaySummary": {
@@ -28,12 +28,12 @@
   },
   "prioritiesToday": [
     {
-      "title": "Check lav",
-      "done": false,
+      "title": "B = 5",
+      "done": true,
       "cancelled": false
     },
     {
-      "title": "B = 5",
+      "title": "Check lav",
       "done": true,
       "cancelled": false
     }
@@ -89,8 +89,8 @@
       "checkIns": 5,
       "checkOuts": 2,
       "tasks": [
-        "Check lav",
-        "B = 5"
+        "B = 5",
+        "Check lav"
       ],
       "hasLinenChange": false,
       "hasBarbaraVisit": true,
