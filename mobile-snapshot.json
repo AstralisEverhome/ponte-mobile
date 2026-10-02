@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-02T15:42:13.700654+02:00",
+  "generatedAt": "2026-10-02T18:42:16.651345+02:00",
   "today": "2026-10-02",
   "tomorrow": "2026-10-03",
   "todaySummary": {
     "checkIns": [
-      "Villa",
       "7A",
-      "8"
+      "8",
+      "Villa"
     ],
     "checkOuts": [
       "8"
