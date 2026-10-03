@@ -1,19 +1,9 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-02T18:42:16.651345+02:00",
-  "today": "2026-10-02",
-  "tomorrow": "2026-10-03",
+  "generatedAt": "2026-10-03T09:29:17.152708+02:00",
+  "today": "2026-10-03",
+  "tomorrow": "2026-10-04",
   "todaySummary": {
-    "checkIns": [
-      "7A",
-      "8",
-      "Villa"
-    ],
-    "checkOuts": [
-      "8"
-    ]
-  },
-  "tomorrowSummary": {
     "checkIns": [
       "6"
     ],
@@ -22,7 +12,25 @@
       "7B"
     ]
   },
-  "prioritiesToday": [],
+  "tomorrowSummary": {
+    "checkIns": [],
+    "checkOuts": [
+      "4",
+      "5"
+    ]
+  },
+  "prioritiesToday": [
+    {
+      "title": "Troca de lençóis — 2",
+      "done": false,
+      "cancelled": false
+    },
+    {
+      "title": "Troca de lençóis — 9",
+      "done": false,
+      "cancelled": false
+    }
+  ],
   "weekRadar": [
     {
       "weekday": "SEG",
@@ -57,7 +65,7 @@
       "date": "2026-09-30",
       "dateLabel": "30",
       "checkIns": 2,
-      "checkOuts": 2,
+      "checkOuts": 0,
       "tasks": [
         "Fotovoltaico"
       ],
@@ -93,7 +101,7 @@
       "hasLinenChange": false,
       "hasBarbaraVisit": false,
       "hasPoolVisit": false,
-      "isToday": true,
+      "isToday": false,
       "isDayOff": false
     },
     {
@@ -109,7 +117,7 @@
       "hasLinenChange": true,
       "hasBarbaraVisit": false,
       "hasPoolVisit": false,
-      "isToday": false,
+      "isToday": true,
       "isDayOff": false
     },
     {
