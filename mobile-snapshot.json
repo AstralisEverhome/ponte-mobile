@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-08T15:05:32.961705+02:00",
+  "generatedAt": "2026-10-08T15:05:37.591676+02:00",
   "today": "2026-10-08",
   "tomorrow": "2026-10-09",
   "todaySummary": {
@@ -25,12 +25,12 @@
       "cancelled": false
     },
     {
-      "title": "Pedido piscina",
-      "done": false,
+      "title": "B = 7A",
+      "done": true,
       "cancelled": false
     },
     {
-      "title": "B = 7A",
+      "title": "Pedido piscina",
       "done": true,
       "cancelled": false
     }
@@ -87,8 +87,8 @@
       "checkOuts": 1,
       "tasks": [
         "Check lav",
-        "Pedido piscina",
-        "B = 7A"
+        "B = 7A",
+        "Pedido piscina"
       ],
       "hasLinenChange": false,
       "hasBarbaraVisit": true,
