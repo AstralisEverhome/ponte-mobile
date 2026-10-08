@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-08T15:05:22.387652+02:00",
+  "generatedAt": "2026-10-08T15:05:24.956148+02:00",
   "today": "2026-10-08",
   "tomorrow": "2026-10-09",
   "todaySummary": {
@@ -20,6 +20,11 @@
   },
   "prioritiesToday": [
     {
+      "title": "B = 7A",
+      "done": false,
+      "cancelled": false
+    },
+    {
       "title": "Check lav",
       "done": false,
       "cancelled": false
@@ -27,11 +32,6 @@
     {
       "title": "Pedido piscina",
       "done": false,
-      "cancelled": false
-    },
-    {
-      "title": "B = 7A",
-      "done": true,
       "cancelled": false
     }
   ],
@@ -86,9 +86,9 @@
       "checkIns": 2,
       "checkOuts": 1,
       "tasks": [
+        "B = 7A",
         "Check lav",
-        "Pedido piscina",
-        "B = 7A"
+        "Pedido piscina"
       ],
       "hasLinenChange": false,
       "hasBarbaraVisit": true,
