@@ -1,11 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-11T09:07:50.911049+02:00",
+  "generatedAt": "2026-10-11T09:15:03.298456+02:00",
   "today": "2026-10-11",
   "tomorrow": "2026-10-12",
   "todaySummary": {
     "checkIns": [
       "4",
+      "7A",
       "9"
     ],
     "checkOuts": [
@@ -16,7 +17,6 @@
   },
   "tomorrowSummary": {
     "checkIns": [
-      "7A",
       "7B",
       "11"
     ],
@@ -121,7 +121,7 @@
       "weekday": "DOM",
       "date": "2026-10-11",
       "dateLabel": "11",
-      "checkIns": 2,
+      "checkIns": 3,
       "checkOuts": 3,
       "tasks": [],
       "hasLinenChange": false,
