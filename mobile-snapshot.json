@@ -1,21 +1,9 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-11T18:45:58.190518+02:00",
-  "today": "2026-10-11",
-  "tomorrow": "2026-10-12",
+  "generatedAt": "2026-10-12T09:21:07.443569+02:00",
+  "today": "2026-10-12",
+  "tomorrow": "2026-10-13",
   "todaySummary": {
-    "checkIns": [
-      "4",
-      "7A",
-      "9"
-    ],
-    "checkOuts": [
-      "1",
-      "5",
-      "7A"
-    ]
-  },
-  "tomorrowSummary": {
     "checkIns": [
       "7B",
       "11"
@@ -24,27 +12,33 @@
       "8"
     ]
   },
+  "tomorrowSummary": {
+    "checkIns": [],
+    "checkOuts": [
+      "12"
+    ]
+  },
   "prioritiesToday": [],
   "weekRadar": [
     {
       "weekday": "SEG",
-      "date": "2026-10-05",
-      "dateLabel": "05",
-      "checkIns": 0,
-      "checkOuts": 0,
+      "date": "2026-10-12",
+      "dateLabel": "12",
+      "checkIns": 2,
+      "checkOuts": 1,
       "tasks": [],
       "hasLinenChange": false,
       "hasBarbaraVisit": false,
       "hasPoolVisit": false,
-      "isToday": false,
+      "isToday": true,
       "isDayOff": false
     },
     {
       "weekday": "TER",
-      "date": "2026-10-06",
-      "dateLabel": "06",
-      "checkIns": 1,
-      "checkOuts": 0,
+      "date": "2026-10-13",
+      "dateLabel": "13",
+      "checkIns": 0,
+      "checkOuts": 1,
       "tasks": [
         "Check lav"
       ],
@@ -56,61 +50,52 @@
     },
     {
       "weekday": "QUA",
-      "date": "2026-10-07",
-      "dateLabel": "07",
-      "checkIns": 1,
-      "checkOuts": 0,
-      "tasks": [
-        "B = 11"
-      ],
+      "date": "2026-10-14",
+      "dateLabel": "14",
+      "checkIns": 0,
+      "checkOuts": 2,
+      "tasks": [],
       "hasLinenChange": false,
-      "hasBarbaraVisit": true,
+      "hasBarbaraVisit": false,
       "hasPoolVisit": false,
       "isToday": false,
       "isDayOff": false
     },
     {
       "weekday": "QUI",
-      "date": "2026-10-08",
-      "dateLabel": "08",
-      "checkIns": 2,
-      "checkOuts": 0,
+      "date": "2026-10-15",
+      "dateLabel": "15",
+      "checkIns": 0,
+      "checkOuts": 1,
       "tasks": [
-        "Check lav",
-        "B = 7A",
-        "Pedido piscina"
+        "Check lav"
       ],
       "hasLinenChange": false,
-      "hasBarbaraVisit": true,
+      "hasBarbaraVisit": false,
       "hasPoolVisit": false,
       "isToday": false,
       "isDayOff": false
     },
     {
       "weekday": "SEX",
-      "date": "2026-10-09",
-      "dateLabel": "09",
-      "checkIns": 0,
-      "checkOuts": 1,
-      "tasks": [
-        "B = V",
-        "Pool"
-      ],
+      "date": "2026-10-16",
+      "dateLabel": "16",
+      "checkIns": 3,
+      "checkOuts": 0,
+      "tasks": [],
       "hasLinenChange": false,
-      "hasBarbaraVisit": true,
-      "hasPoolVisit": true,
+      "hasBarbaraVisit": false,
+      "hasPoolVisit": false,
       "isToday": false,
       "isDayOff": false
     },
     {
       "weekday": "SÁB",
-      "date": "2026-10-10",
-      "dateLabel": "10",
-      "checkIns": 2,
-      "checkOuts": 2,
-      "tasks": [
-        "Fotovoltaico"
-      ],
+      "date": "2026-10-17",
+      "dateLabel": "17",
+      "checkIns": 0,
+      "checkOuts": 1,
+      "tasks": [],
       "hasLinenChange": false,
       "hasBarbaraVisit": false,
       "hasPoolVisit": false,
@@ -119,15 +104,15 @@
     },
     {
       "weekday": "DOM",
-      "date": "2026-10-11",
-      "dateLabel": "11",
-      "checkIns": 3,
-      "checkOuts": 3,
+      "date": "2026-10-18",
+      "dateLabel": "18",
+      "checkIns": 1,
+      "checkOuts": 1,
       "tasks": [],
       "hasLinenChange": false,
       "hasBarbaraVisit": false,
       "hasPoolVisit": false,
-      "isToday": true,
+      "isToday": false,
       "isDayOff": false
     }
   ],
