@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-14T09:30:49.020879+02:00",
+  "generatedAt": "2026-10-14T09:32:06.308099+02:00",
   "today": "2026-10-14",
   "tomorrow": "2026-10-15",
   "todaySummary": {
@@ -44,7 +44,7 @@
       "hasBarbaraVisit": false,
       "hasPoolVisit": false,
       "isToday": false,
-      "isDayOff": false
+      "isDayOff": true
     },
     {
       "weekday": "QUA",
