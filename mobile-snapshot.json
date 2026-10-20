@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-20T16:24:50.730502+02:00",
+  "generatedAt": "2026-10-20T17:09:47.715814+02:00",
   "today": "2026-10-20",
   "tomorrow": "2026-10-21",
   "todaySummary": {
@@ -13,12 +13,12 @@
   },
   "prioritiesToday": [
     {
-      "title": "Fotovoltaico",
-      "done": false,
+      "title": "Check lav",
+      "done": true,
       "cancelled": false
     },
     {
-      "title": "Check lav",
+      "title": "Fotovoltaico",
       "done": true,
       "cancelled": false
     }
@@ -44,8 +44,8 @@
       "checkIns": 0,
       "checkOuts": 0,
       "tasks": [
-        "Fotovoltaico",
-        "Check lav"
+        "Check lav",
+        "Fotovoltaico"
       ],
       "hasLinenChange": false,
       "hasBarbaraVisit": false,
