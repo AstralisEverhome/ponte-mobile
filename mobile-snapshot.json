@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-20T17:09:47.715814+02:00",
-  "today": "2026-10-20",
-  "tomorrow": "2026-10-21",
+  "generatedAt": "2026-10-21T09:03:28.960280+02:00",
+  "today": "2026-10-21",
+  "tomorrow": "2026-10-22",
   "todaySummary": {
     "checkIns": [],
     "checkOuts": []
@@ -11,18 +11,7 @@
     "checkIns": [],
     "checkOuts": []
   },
-  "prioritiesToday": [
-    {
-      "title": "Check lav",
-      "done": true,
-      "cancelled": false
-    },
-    {
-      "title": "Fotovoltaico",
-      "done": true,
-      "cancelled": false
-    }
-  ],
+  "prioritiesToday": [],
   "weekRadar": [
     {
       "weekday": "SEG",
@@ -50,7 +39,7 @@
       "hasLinenChange": false,
       "hasBarbaraVisit": false,
       "hasPoolVisit": false,
-      "isToday": true,
+      "isToday": false,
       "isDayOff": false
     },
     {
@@ -63,7 +52,7 @@
       "hasLinenChange": false,
       "hasBarbaraVisit": false,
       "hasPoolVisit": false,
-      "isToday": false,
+      "isToday": true,
       "isDayOff": false
     },
     {
