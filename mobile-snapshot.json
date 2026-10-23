@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-23T09:04:33.485559+02:00",
+  "generatedAt": "2026-10-23T09:04:40.510985+02:00",
   "today": "2026-10-23",
   "tomorrow": "2026-10-24",
   "todaySummary": {
@@ -32,7 +32,7 @@
   "prioritiesToday": [
     {
       "title": "Pool",
-      "done": false,
+      "done": true,
       "cancelled": false
     }
   ],
