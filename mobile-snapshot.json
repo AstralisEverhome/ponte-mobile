@@ -1,29 +1,38 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-25T17:28:32.702031+01:00",
-  "today": "2026-10-25",
-  "tomorrow": "2026-10-26",
+  "generatedAt": "2026-10-30T11:47:55.760129+01:00",
+  "today": "2026-10-30",
+  "tomorrow": "2026-10-31",
   "todaySummary": {
-    "checkIns": [
+    "checkIns": [],
+    "checkOuts": [
       "2",
       "3",
       "5",
       "6",
       "8"
+    ]
+  },
+  "tomorrowSummary": {
+    "checkIns": [
+      "7A",
+      "9"
     ],
     "checkOuts": []
   },
-  "tomorrowSummary": {
-    "checkIns": [],
-    "checkOuts": []
-  },
-  "prioritiesToday": [],
+  "prioritiesToday": [
+    {
+      "title": "Fotovoltaico",
+      "done": false,
+      "cancelled": false
+    }
+  ],
   "weekRadar": [
     {
       "weekday": "SEG",
-      "date": "2026-10-19",
-      "dateLabel": "19",
-      "checkIns": 1,
+      "date": "2026-10-26",
+      "dateLabel": "26",
+      "checkIns": 0,
       "checkOuts": 0,
       "tasks": [],
       "hasLinenChange": false,
@@ -34,13 +43,12 @@
     },
     {
       "weekday": "TER",
-      "date": "2026-10-20",
-      "dateLabel": "20",
+      "date": "2026-10-27",
+      "dateLabel": "27",
       "checkIns": 0,
       "checkOuts": 0,
       "tasks": [
-        "Check lav",
-        "Fotovoltaico"
+        "Check lav"
       ],
       "hasLinenChange": false,
       "hasBarbaraVisit": false,
@@ -50,8 +58,8 @@
     },
     {
       "weekday": "QUA",
-      "date": "2026-10-21",
-      "dateLabel": "21",
+      "date": "2026-10-28",
+      "dateLabel": "28",
       "checkIns": 0,
       "checkOuts": 0,
       "tasks": [],
@@ -63,13 +71,12 @@
     },
     {
       "weekday": "QUI",
-      "date": "2026-10-22",
-      "dateLabel": "22",
+      "date": "2026-10-29",
+      "dateLabel": "29",
       "checkIns": 0,
       "checkOuts": 0,
       "tasks": [
-        "Check lav",
-        "Pedido piscina"
+        "Check lav"
       ],
       "hasLinenChange": false,
       "hasBarbaraVisit": false,
@@ -79,24 +86,24 @@
     },
     {
       "weekday": "SEX",
-      "date": "2026-10-23",
-      "dateLabel": "23",
+      "date": "2026-10-30",
+      "dateLabel": "30",
       "checkIns": 0,
-      "checkOuts": 2,
+      "checkOuts": 5,
       "tasks": [
-        "Pool"
+        "Fotovoltaico"
       ],
       "hasLinenChange": false,
       "hasBarbaraVisit": false,
-      "hasPoolVisit": true,
-      "isToday": false,
+      "hasPoolVisit": false,
+      "isToday": true,
       "isDayOff": false
     },
     {
       "weekday": "SÁB",
-      "date": "2026-10-24",
-      "dateLabel": "24",
-      "checkIns": 0,
+      "date": "2026-10-31",
+      "dateLabel": "31",
+      "checkIns": 2,
       "checkOuts": 0,
       "tasks": [],
       "hasLinenChange": false,
@@ -107,15 +114,15 @@
     },
     {
       "weekday": "DOM",
-      "date": "2026-10-25",
-      "dateLabel": "25",
-      "checkIns": 5,
+      "date": "2026-11-01",
+      "dateLabel": "01",
+      "checkIns": 0,
       "checkOuts": 0,
       "tasks": [],
       "hasLinenChange": false,
       "hasBarbaraVisit": false,
       "hasPoolVisit": false,
-      "isToday": true,
+      "isToday": false,
       "isDayOff": false
     }
   ],
