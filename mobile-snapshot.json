@@ -1,15 +1,11 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-06T09:49:01.927462+01:00",
-  "today": "2026-11-06",
-  "tomorrow": "2026-11-07",
+  "generatedAt": "2026-11-09T12:26:49.027724+01:00",
+  "today": "2026-11-09",
+  "tomorrow": "2026-11-10",
   "todaySummary": {
-    "checkIns": [
-      "5"
-    ],
-    "checkOuts": [
-      "7A"
-    ]
+    "checkIns": [],
+    "checkOuts": []
   },
   "tomorrowSummary": {
     "checkIns": [],
@@ -19,24 +15,26 @@
   "weekRadar": [
     {
       "weekday": "SEG",
-      "date": "2026-11-02",
-      "dateLabel": "02",
+      "date": "2026-11-09",
+      "dateLabel": "09",
       "checkIns": 0,
       "checkOuts": 0,
       "tasks": [],
       "hasLinenChange": false,
       "hasBarbaraVisit": false,
       "hasPoolVisit": false,
-      "isToday": false,
+      "isToday": true,
       "isDayOff": false
     },
     {
       "weekday": "TER",
-      "date": "2026-11-03",
-      "dateLabel": "03",
+      "date": "2026-11-10",
+      "dateLabel": "10",
       "checkIns": 0,
       "checkOuts": 0,
-      "tasks": [],
+      "tasks": [
+        "Fotovoltaico"
+      ],
       "hasLinenChange": false,
       "hasBarbaraVisit": false,
       "hasPoolVisit": false,
@@ -45,10 +43,10 @@
     },
     {
       "weekday": "QUA",
-      "date": "2026-11-04",
-      "dateLabel": "04",
-      "checkIns": 0,
-      "checkOuts": 0,
+      "date": "2026-11-11",
+      "dateLabel": "11",
+      "checkIns": 1,
+      "checkOuts": 4,
       "tasks": [],
       "hasLinenChange": false,
       "hasBarbaraVisit": false,
@@ -58,10 +56,10 @@
     },
     {
       "weekday": "QUI",
-      "date": "2026-11-05",
-      "dateLabel": "05",
+      "date": "2026-11-12",
+      "dateLabel": "12",
       "checkIns": 0,
-      "checkOuts": 1,
+      "checkOuts": 0,
       "tasks": [],
       "hasLinenChange": false,
       "hasBarbaraVisit": false,
@@ -71,22 +69,22 @@
     },
     {
       "weekday": "SEX",
-      "date": "2026-11-06",
-      "dateLabel": "06",
-      "checkIns": 1,
-      "checkOuts": 1,
+      "date": "2026-11-13",
+      "dateLabel": "13",
+      "checkIns": 0,
+      "checkOuts": 0,
       "tasks": [],
       "hasLinenChange": false,
       "hasBarbaraVisit": false,
       "hasPoolVisit": false,
-      "isToday": true,
+      "isToday": false,
       "isDayOff": false
     },
     {
       "weekday": "SÁB",
-      "date": "2026-11-07",
-      "dateLabel": "07",
-      "checkIns": 0,
+      "date": "2026-11-14",
+      "dateLabel": "14",
+      "checkIns": 1,
       "checkOuts": 0,
       "tasks": [],
       "hasLinenChange": false,
@@ -97,10 +95,10 @@
     },
     {
       "weekday": "DOM",
-      "date": "2026-11-08",
-      "dateLabel": "08",
-      "checkIns": 3,
-      "checkOuts": 0,
+      "date": "2026-11-15",
+      "dateLabel": "15",
+      "checkIns": 0,
+      "checkOuts": 1,
       "tasks": [],
       "hasLinenChange": false,
       "hasBarbaraVisit": false,
