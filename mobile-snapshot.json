@@ -1,14 +1,16 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-09T12:26:49.027724+01:00",
-  "today": "2026-11-09",
-  "tomorrow": "2026-11-10",
+  "generatedAt": "2026-11-13T14:29:05.536098+01:00",
+  "today": "2026-11-13",
+  "tomorrow": "2026-11-14",
   "todaySummary": {
     "checkIns": [],
     "checkOuts": []
   },
   "tomorrowSummary": {
-    "checkIns": [],
+    "checkIns": [
+      "7A"
+    ],
     "checkOuts": []
   },
   "prioritiesToday": [],
@@ -23,7 +25,7 @@
       "hasLinenChange": false,
       "hasBarbaraVisit": false,
       "hasPoolVisit": false,
-      "isToday": true,
+      "isToday": false,
       "isDayOff": false
     },
     {
@@ -77,7 +79,7 @@
       "hasLinenChange": false,
       "hasBarbaraVisit": false,
       "hasPoolVisit": false,
-      "isToday": false,
+      "isToday": true,
       "isDayOff": false
     },
     {
